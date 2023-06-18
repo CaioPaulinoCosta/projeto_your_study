@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+  background-color: #BFA288;
+}
+
+
+.bold {
+  font-weight: 700;
+}
+
+.row {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Login */
+.login-container {
+  height: 80vh;
+  margin-bottom: 100px;
+}
+
+.bg-login {
+  background-color: #bfa2887e;
+  border-radius: 20px;
+  border: 2px solid #260202;
+}
+
+#btn-login {
+  background-color: #260202;
+  color: #fff;
+  transition: .5s;
+}
+
+#btn-login:hover {
+  background-color: #731209;
+  color: #fff;
+}
+
+.login {
+  color: #260202;
+}
+
+/* register */
+.register-container {
+  height: 85vh;
+  margin-bottom: 100px;
+}
+
+.bg-register{
+  background-color: #bfa2887e;
+  border-radius: 20px;
+  border: 2px solid #260202;
+}
+
+#btn-register {
+  background-color: #260202;
+  color: #fff;
+  transition: .5s;
+}
+
+#btn-register:hover {
+  background-color: #731209;
+  color: #fff;
+}
+
+.form-register {
+  border-top: 2px solid #260202;
+}
+
+
+/* Nav */
+
+.navbar-profile {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.navbar-nav a {
+    color: #260202;
+}
+
+.navbar-nav a:hover {
+    color: #731209;
+}
+.dropdown-toggle-no-caret::after {
+  display: none !important;
+}
+
+.dropdown-menu-end::before {
+  right: auto !important;
+  left: 100% !important;
+}
+
+
+.msg {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  border: solid 1px #000;
+  text-align: center;
+}
+
+
+.msg.error {
+  color: #842029;
+  background-color: #F8D7DA;
+  border-color: #F5C2C7;
+}
+
+.msg.success {
+  color: #004e14;
+  background-color: #c0ffd5;
+  border-color: #c0ffd5;
+}
+
+/* HOME */
+
+#main-container {
+  color: #000000;
+  min-height: 80vh;
+  padding: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  border-left: 4px solid #260202;
+  padding-left: 12px;
+  margin-top: 20px;
+}
+
+.section-description {
+  color: #000000;
+  font-size: 18px;
+}
+
+.lessons-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.card-image {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.empty-list {
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* Deshboard */
+.bg-dashboard-table {
+  background-color: #bfa2887e;
+}
+
+#dashboard-edit-btn {
+background-color: #004e14;
+color: #fff;
+}
+
+#dashboard-edit-btn:hover {
+  background-color: #008120;
+  color: #fff;
+  }
+
+#dashboard-delete-btn {
+  background-color: #731209;
+  color: #fff;
+}
+#dashboard-delete-btn:hover {
+  background-color: #aa1b0e;
+  color: #fff;
+}
+
+#lesson-title {
+  color: #260202;
+}
+
+
+/* Profile */
+.profile-card {
+  height: 160px;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-image-container {
+  padding-left: 60px;
+  padding-top: 10px;
+}
+
+#profile-image {
+  width: 160px;
+  height: 160px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.profile-section-2 {
+  border-top: solid 2px #260202;
+}
+
+/* Edit Profile */
+.edit-profile {
+  height: 100vh;
+}
+
+#profile-image {
+  width: 160px;
+  height: 160px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+#modal-profile-image {
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 180px;
+}
+
+#image {
+  display: none;
+}
+
+
+/* New lesson form*/
+.new-lesson-title {
+ border-left: 3px solid #260202;
+ transition: .5s;
+}
+
+#btn-new-lesson {
+  background-color: #260202;
+  color: #fff;
+}
+
+#btn-new-lesson:hover {
+  background-color: #731209;
+  color: #fff;
+}
+
+/* Lesson */
+#review-profile {
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.review-container {
+  border-radius: 10px;
+  background-color: #bfa2887e;
+  color: #260202;
+}
+
+.comment-container {
+  border-top: solid 2px #2602029f;
+  color: #260202;
+}
+
+#video-lesson {
+  width: 100%;
+  height: 700px;
+}
+
+.bg-video {
+  background-color: #bfa2887e;
+  border-radius: 10px;
+}
+
+.video-section-1 {
+  color: #260202;
+}
+
+.video-section-2 {
+  border-top: 2px solid #260202;
+  color: #260202;
+}
+
+.video-section-3 {
+  color: #260202;
+  border-top: 2px solid #260202;
+}
+
+.btn-see-more:active {
+  border: none;
+}
+
+
+/* student hub */
+.bg-custom {
+  background-color: #bfa2887e;
+}
+
+/* manage_students */
+.manage_studentes-container {
+  height: 80vh;
+}
+
+.manage-studentes-title {
+  border-bottom: 2px solid #260202;
+}
+
+#contacts-table {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg-thead {
+  background-color: #bfa2887e;
+}
+
+.col-id {
+  font-weight: bold;
+}
+
+.actions {
+  text-align: right;
+  width: 150px;
+}
+
+.actions i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.check-icon {
+  color: #731209;
+}
+
+.check-icon:hover {
+  color: #A0BED9;
+}
+
+.edit-icon {
+  color: #731209;
+  transition: .5s;
+}
+
+.edit-icon:hover {
+  color: #A0BED9;
+}
+
+.calculator-icon{
+  color: #731209;
+  transition: .5s;
+}
+
+.calculator-icon:hover{
+  color: #A0BED9;
+}
+
+.delete-form {
+  display: inline-block;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.delete-icon {
+  color: #BD2130;
+}
+
+#empty-list-text {
+  text-align: center;
+}
+
+#msg {
+  color: #155724;
+  background-color: #D4EDDA;
+  border: 1px solid #C3E6CB;
+  padding: 10px;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* Footer */
+#footer {
+    background-color: #BFA288;
+    color: #260202;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+  #social-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #social-container li {
+      display: inline-block;
+      margin: 0 20px;
+  }
+  
+  #social-container li {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    transition: .5s;
+    line-height: 3;
+  }
+  
+  #social-container li:hover {
+    background-color: #8C6751;
+  }
+
+  
+  #social-container a {
+    color: #260202;
+    transition: .5s;
+  }
+  
+  #social-container li i {
+    font-size: 25px;
+  }
+  
+  
+  #social-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #social-container li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+
