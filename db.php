@@ -1,9 +1,9 @@
 <?php
 
-$db_name = "yourstudy";
-$db_host = "localhost";
-$db_user = "root";
-$db_pass = "";
+$db_name = "heroku_d1ddafa1878fd62";
+$db_host = "us-cdbr-east-06.cleardb.net";
+$db_user = "b8197b94fbf630";
+$db_pass = "80fbdca7";
 
 $conn = new PDO("mysql:dbname=". $db_name .";host=". $db_host, $db_user, $db_pass);
 

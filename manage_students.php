@@ -80,6 +80,7 @@ $users = $userDao->findAllUsers();
 
                                             </table>
                                         </div>
+                                        <?php endforeach; ?>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                             <button type="button" class="btn btn-primary">Save changes</button>
@@ -161,7 +162,6 @@ $users = $userDao->findAllUsers();
                                             <input type="submit" class="btn btn-primary mt-3" value="Editar notas">
                                         </form>
                                     </div>
-                                <?php endforeach; ?>
                                 </div>
                             </div>
                         </div>
