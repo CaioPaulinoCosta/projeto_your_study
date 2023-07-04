@@ -32,7 +32,6 @@ class LessonDAO implements LessonDAOInterface {
         $lesson->content = $data["content"];
         $lesson->users_id = $data["users_id"];
 
-      // Recebe as ratings do filme
       $reviewDao = new ReviewDao($this->conn, $this->url);
 
       $rating = $reviewDao->getRatings($lesson->id);
@@ -181,7 +180,6 @@ class LessonDAO implements LessonDAOInterface {
     
             $stmt->execute();
     
-            // Mensagem de sucesso por adicionar um filme/ redireciona para o perfil o home
             $this->message->setMessage("Aula adicionada com sucesso!", "success", "index.php");
 
     }
@@ -207,7 +205,6 @@ class LessonDAO implements LessonDAOInterface {
 
       $stmt->execute();
 
-      // Mensagem de sucesso por editar filme
       $this->message->setMessage("Aula atualizada com sucesso!", "success", "dashboard.php");
 
     }
@@ -219,7 +216,6 @@ class LessonDAO implements LessonDAOInterface {
     
         $stmt->execute();
     
-        // Mensagem de sucesso por adicionar um filme/ redireciona para o perfil o home
         $this->message->setMessage("Aula removida com sucesso!", "success", "dashboard.php");
 
     }
